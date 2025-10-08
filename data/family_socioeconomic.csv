@@ -1,0 +1,6 @@
+Child ID,Number of Siblings,Housing Conditions,Parental Occupation,Wealth Quintile,Access to Financial Services
+1,1,Good, with sanitation,Skilled labor,Middle,Yes
+2,2,Poor, lacking sanitation,Unemployed,Low,No
+3,0,Good, with sanitation,Teacher,Middle,Yes
+4,3,Poor, lacking sanitation,Farmer,Low,No
+5,2,Good, with sanitation,Nurse,Middle,Yes

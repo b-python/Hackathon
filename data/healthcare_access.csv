@@ -1,0 +1,6 @@
+Child ID,Distance to Healthcare (km),Quality of Healthcare,Emergency Room Visits,Follow-Up Care
+1,2,Satisfied,1,Regular
+2,5,Dissatisfied,2,Inconsistent
+3,3,Satisfied,0,Regular
+4,4,Dissatisfied,3,Inconsistent
+5,3,Satisfied,1,Regular

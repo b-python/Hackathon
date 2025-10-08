@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stunting Analysis in Rwanda - 2025 Hackathon</title>
+    <link rel="icon" href="../images/FAVICON_NISR_3.png" type="image/png">
+    <link rel="icon" src="../images/logo-rwanda-nisr-transparent_0.png">
+   
+</head>
+<header>
+    <div class="header">
+    <div class="logo">
+        <img src="../images/logo-rwanda-nisr-transparent_0.png" alt="Logo">
+        2025 Hackathon Competition
+    </div>
+    <div class="nav-links">
+        <a href="/">Home</a>
+         <a href="/predictions">Predictions</a>
+        <a href="/hunger">Hidden Hunger</a>
+        <a href="/about_us">About Us</a>
+        <a href="/contact">Contact Us</a>
+    </div>
+    <div class="hamburger" onclick="toggleSidebar()">☰</div>
+</div>
+
+<div class="sidebar" id="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="toggleSidebar()">×</a>
+        <a href="/">Home</a>
+         <a href="/predictions">Predictions</a>
+        <a href="/hunger">Hidden Hunger</a>
+        <a href="/about_us">About Us</a>
+        <a href="/contact">Contact Us</a>
+    </div>
+</header>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Rwanda Demographic & Health</h1>
+        <h1>Stunting Analysis in Rwanda</h1>
+        <h1>between 2015 and 2020 </h1>
+
+        <h3>Height vs Weight of Children</h3>
+        <img src="../output/height_weight_scatter.png" alt="Height vs Weight Scatter Plot">
+
+<h3>Percent of children under 5 years of age</h3>
+        <img src="images/Nutritional Status of Children.png" alt="Height vs Weight Scatter Plot">
+        <div class="content">
+        <h4>Key Findings:</h4>
+        <ul>
+            <li>On average, 1.2% points of stunting reduction was observed annually from 2005 to 2020, but the stunting reduction rate had been slowing down</li>
+        </ul>
+    </div>
+
+        <!---<h2>Weight Distribution of Children</h2>
+        <img src="../output/weight_distribution.png" alt="Weight Distribution"> --->
+
+<h3>Prevalence of Stunting Among Children Under Five by Age Group</h3>
+    <img src="../images/stunting among children under five by age group.png" alt="Children under five by age group">
+    <div class="content">
+        <h4>Key Findings:</h4>
+        <ul>
+            <li>Overall, the prevalence of stunting decreased from 37.9% in 2015 to 33.1% in 2020.</li>
+            <li>A significant reduction in stunting was observed among children aged 12-17 months (8.8 percentage points) and 18-23 months (10.4 percentage points).</li>
+            <li>Among children under 6 months and those aged 6-8 months, the prevalence of stunting increased from 2015 to 2020.</li>
+            <li>16.2% of children less than 6 months were already stunted.</li>
+            <li>Stunting increased with the age of the child up to 35 months and then decreased as the child got older.</li>
+            <li>Stunting rose to 32.8% at 12-17 months and peaked at 40.4% at 24-35 months.</li>
+        </ul>
+    </div>
+
+<h3>prevalence of stunting among children under five by province</h3>
+    <img src="../images/stunting among children under five by province.png" alt="stunting among children under five by province">
+    <div class="content">
+        <h4>Key Findings:</h4>
+        <ul>
+            <li>The Northern province had shown a slight increase in the prevalence of stunting between 2015 and 2020 .</li>
+            <li>The prevalence of stunting was highest in Western and Northern provinces</li>
+            <li>Among children under 6 months and those aged 6-8 months, the prevalence of stunting increased from 2015 to 2020.</li>
+            <li>Stunting reduction had happened in the Southern (7.8% points), Eastern and Western provinces between 2015 and 2020</li>
+        </ul>
+    </div>
+
+    <h3>prevalence of stunting among children under five by sex</h3>
+    <img src="../images/stunting among children under five by sex.png" alt="stunting among children under five by sex">
+    <div class="content">
+        <h4>Key Findings:</h4>
+        <ul>
+            <li>Boys tend to be more stunted than girls</li>
+            <li>Stunting reduction had happened more in boys (5.7% points) than in girls between 2015 and 2020</li>
+        </ul>
+    </div>
+
+<h3>prevalence of stunting by size at birth</h3>
+    <img src="../images/stunting by size of birth.png" alt="prevalence of stunting among children under five by birth interval in months">
+    <div class="content">
+        <h4>Key Findings:</h4>
+        <ul>
+            <li>Children were more likely to be stunted if they were born smaller</li>
+            <li>Stunting reduction had happened more in the children born small (5.2% points) or average or larger (5% points) than born very small between 2015 and 2020</li>
+            <li>Children were more likely to be stunted if they were born smaller</li>
+        </ul>
+    </div>
+
+
+    <h3>Wealth Quintile Distribution</h3>
+        <img src="../output/wealth_quintile_distribution.png" alt="Wealth Quintile Distribution">
+
+        <h3>Distance to Healthcare by Quality</h3>
+        <img src="../output/distance_healthcare_quality.png" alt="Distance to Healthcare by Quality">
+
+        <h3>Traditional Feeding Practices</h3>
+        <img src="../output/traditional_feeding_practices.png" alt="Traditional Feeding Practices">
+
+        <!--<h2>Household Debt Levels by Parental Stress</h2>
+        <img src="../output/debt_stress_levels.png" alt="Debt Levels by Stress Levels">-->
+
+
+
+        <h3>prevalence of stunting by mothers’ nutritional status</h3>
+    <img src="../images/stunting by mothers’ nutritional status.png" alt="prevalence of stunting by mothers’ nutritional status">
+    <div class="content">
+        <h4>Key Findings:</h4>
+        <ul>
+            <li>Children born to mothers with lower BMI tended to be more stunted</li>
+            <li>Stunting reduction had happened more in children who were born to mothers with lower BMI between 2015 and 2020 (11% points)</li>
+        </ul>
+    </div>
+
+<h3>prevalence of stunting among children under five by residence</h3>
+    <img src="../images/stunting among children under five by residence.png" alt="prevalence of stunting among children under five by residence">
+    <div class="content">
+        <h4>Key Findings:</h4>
+        <ul>
+            <li>Children were more likely to be stunted if they lived in rural</li>
+        </ul>
+    </div>
+
+
+
+        <h3>prevalence of stunting by mothers’ education level</h3>
+        <img src="../images/stunting by mothers’ education level.png" alt="prevalence of stunting among children under five by residence">
+        <!--<img src="../output/maternal_weight_education.png" alt="Maternal Weight by Education Level">-->
+
+        <div class="content">
+        <h4>Key Findings:</h4>
+        <ul>
+            <li>Children were more likely to be stunted if their mothers’ education were lower</li>
+            <li>Stunting had increased among children whose mothers’ education level was higher</li>
+            <li>Mothers’ education level plays a significant role for stunting reduction</li>
+        </ul>
+    </div>
+
+
+        <!--<h2>Maternal Weight Distribution</h2>
+        <img src="../output/maternal_weight_distribution.png" alt="Maternal Weight Distribution">
+
+        <h2>Cognitive Development Score Distribution</h2>
+        <img src="../output/cognitive_development_distribution.png" alt="Cognitive Development Distribution"> -->
+
+        <h3>Food Security Status Distribution</h3>
+        <img src="../output/food_security_status_distribution.png" alt="Food Security Status Distribution">
+
+        <h3>Growth Monitoring Frequency vs Health Check-up Outcomes</h3>
+        <img src="../output/growth_monitoring_outcomes.png" alt="Growth Monitoring Outcomes">
+
+      <h3>Community Support vs Access to Parenting Resources</h3>
+        <img src="../output/community_support_resources.png" alt="Community Support">
+
+
+    <h3>prevalence of stunting by wealth quintile</h3>
+    <img src="../images/stunting by wealth quintile.png" alt="prevalence of stunting by wealth quintile">
+    <div class="content">
+        <h4>Key Findings:</h4>
+        <ul>
+            <li>Children were more likely to be stunted if their families were poorer</li>
+            <li>Poverty alleviation plays a significant role for stunting reduction</li>
+            <li>Stunting reduction had happened the most among children in the highest wealth quintile (10.2% points) between 2015 and 2020</li>
+        </ul>
+    </div>
+
+     <h3>Stunting among U5 Children in City of Kigali</h3>
+     <h3>(DHS 2015 - DHS 2019/20)</h3>
+    <img src="../images/Stunting among U5 Children in City of Kigali.png" alt="Stunting among U5 Children in City of Kigali">
+    <div class="content">
+        <h4>Key Findings:</h4>
+        <ul>
+            <li>Improved access to healthcare is indicated by decreased distances to facilities for families.</li>
+            <li>Increased satisfaction with healthcare quality correlates with better health outcomes for children.</li>
+            <li>Fewer emergency room visits suggest enhanced preventive care and timely medical attention.</li>
+            <li>More consistent follow-up care is linked to effective monitoring of child growth and development.</li>
+            <li>Overall healthcare improvements contribute significantly to stunting prevention in children.</li>
+        </ul>
+    </div>
+
+
+
+    <div class="content">
+        <h4>Insights</h4>
+        <ul>
+<p>Average Weight of Children: 10.40 kg</p>
+<p>Average Weight of Children: 10.40 kg</p>
+        </ul>
+
+        <h4>Predictions</h4>
+        <ul>
+            <li>Predictions have been saved to <a href="../output/predictions.csv">predictions.csv</a>.</li>
+            <li>Lower maternal BMI associated with higher stunting rates; significant reductions noted.</li>
+            <a class="button" href="data:application/pdf;base64,INSERT_BASE64_ENCODED_PDF_HERE" download="Rwanda_Stunting_Report.pdf">Download PDF</a>
+        </ul>
+    </div>
+
+             <!--code for footer--->
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-section">
+            <h4>About Us</h4>
+            <p>Leading Statistic platform for Children across the globe.</p>
+            <p><a href="#">Learn More</a></p>
+        </div>
+        <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#">Feedback</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Contact Us</h4>
+            <p>Email: info@nutritionalstatusofchlidren.com</p>
+            <p>Phone: + 250 782 128 007</p>
+            <p>Address: NY 293, Kimisaga, Kigali City</p>
+        </div>
+        <div class="footer-section">
+            <h4>Follow Us</h4>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">LinkedIn</a></li>
+            </ul>
+        </div>
+        
+    </div>
+    <div style="text-align: center; margin-top: 20px;">
+        <p>&copy; 2025 Hackathon Competition. All Rights Reserved.</p>
+        <p>Designed by B_Alain_02</p>
+    </div>
+</footer>
+</body>
+</html>
+
+
+<style>
+    body {
+            font-family: 'Times New Roman', Times, serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        
+ 
+         h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin: 10px 0;
+            padding: 10px;
+            /*border-bottom: 3px solid #3498db;  Underline effect */
+
+            transition: color 0.3s ease; /* Smooth color transition */
+        }
+        h1:first-of-type {
+            font-size: 3.5em; /* Larger size for the first heading */
+        }
+        h1:last-of-type {
+            font-size: 2em; /* Slightly smaller size for the second heading */
+        }
+        @media (max-width: 600px) {
+            h1:first-of-type {
+                font-size: 2em; /* Adjust size for small screens */
+            }
+            h1:last-of-type {
+                font-size: 1.7em; /* Adjust size for small screens */
+            }
+        }
+        /* Hover effect for h1 elements */
+        h1:hover {
+            color: #2980b9; /* Change color on hover */
+        }
+
+
+
+        h3 {
+            text-align: center;
+            color: #333;
+            margin: 20px 0;
+        }
+        img {
+    display: block;
+    max-width: 65%;
+    height: auto;
+    margin: 0 auto 20px;
+    border: 5px solid #3498db; /* Blue border */
+    border-radius: 10px; /* Rounded corners */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for effects */
+}
+
+/* Hover effect for the image */
+img:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Shadow effect on hover */
+}
+
+ .button {
+    display: inline-block;
+    padding: 12px 24px; /* Increased padding for a larger button */
+    margin-top: 20px;
+    background-color: #2980b9; /* Darker shade of blue */
+    color: white;
+    text-decoration: none;
+    border-radius: 8px; /* More rounded corners */
+    border: 2px solid transparent; /* Transparent border for hover effect */
+    font-size: 1em; /* Font size for better readability */
+    font-weight: bold; /* Bold text for emphasis */
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; /* Smooth transitions */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Hover effect for button */
+.button:hover {
+    background-color: #3498db; /* Lighter shade on hover */
+    color: #ffffff; /* Ensure text remains white */
+    border-color: #2980b9; /* Border color change on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+/* Focus effect for accessibility */
+.button:focus {
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 0 4px rgba(41, 128, 185, 0.5); /* Custom focus shadow */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+    img {
+        border: 3px solid #2980b9; /* Thinner border on small screens */
+        border-radius: 8px; /* Adjusted rounding */
+    }
+}
+        .content {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h4 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        li {
+            margin: 5px 0;
+            color: #555;
+        }
+        @media (max-width: 600px) {
+            h3 {
+                font-size: 1.5em;
+            }
+            .content {
+                padding: 15px;
+            }
+            h4 {
+                font-size: 1.2em;
+            }
+            li {
+                font-size: 0.9em;
+            }
+        }
+
+
+
+        .header {
+            background-color: white;
+            color: black;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+        .nav-links a {
+            color: black;
+            text-decoration: none;
+            padding: 10px 15px;
+            transition: background-color 0.3s;
+        }
+        .nav-links a:hover {
+            background-color: #004494;
+            border-radius: 5px;
+        }
+        .hamburger {
+            display: none;
+            cursor: pointer;
+            font-size: 24px;
+        }
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: -250px;
+            height: 100%;
+            width: 250px;
+            background-color: #2c3e50;
+            padding-top: 60px;
+            transition: 0.3s;
+            z-index: 1;
+        }
+        .sidebar a {
+            padding: 15px;
+            text-decoration: none;
+            color: white;
+            display: block;
+            transition: background-color 0.3s;
+        }
+        .sidebar a:hover {
+            background-color: #004494;
+        }
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+            .hamburger {
+                display: block;
+            }
+        }
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 30px; /* Base font size */
+    color: green; /* Text color */
+    padding: 10px 20px; /* Padding around the logo */
+    transition: all 0.3s ease; /* Smooth transitions for hover effects */
+    text-align: center;
+}
+
+.logo img {
+    height: 65px; 
+    width: auto; 
+    margin-right: 150px; 
+    transition: transform 0.3s ease; 
+}
+
+.logo:hover img {
+    transform: scale(1.1); /* Scale effect on hover */
+}
+
+.logo:hover {
+    color: #ffcc00; 
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .logo {
+        font-size: 30px; /* Smaller font size on mobile */
+        padding: 5px; /* Reduced padding */
+        
+    }
+    .logo img {
+        height: 60px; /* Smaller logo height on mobile */
+        margin-right: 28px; /* Space between logo and text */
+    }
+}
+
+
+.footer {
+        background-color: #34495e;
+        color: white;
+        padding: 40px 0;
+    }
+    .footer-container {
+        max-width: 1200px;
+        margin: auto;
+        padding: 0 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .footer-section {
+        flex: 1;
+        min-width: 250px;
+        margin: 10px;
+    }
+    .footer h4 {
+        margin-bottom: 15px;
+        font-size: 1.5em;
+        color: white;
+    }
+    .footer p {
+        margin-bottom: 10px;
+    }
+    .footer ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    .footer a {
+        color: lightblue;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+    .footer a:hover {
+        color: #1abc9c;
+    }
+
+    .byiri {
+        text-align: center;
+            margin-top: 20px;
+    }
+
+</style>
+
+<script>
+       function toggleSidebar() {
+        const sidebar = document.getElementById('sidebar');
+        sidebar.style.left = (sidebar.style.left === '0px') ? '-250px' : '0px';
+    }
+</script>

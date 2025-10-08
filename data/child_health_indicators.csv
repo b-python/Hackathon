@@ -1,0 +1,6 @@
+Child ID,Age (months),Gender,Height (cm),Weight (kg),Birth Weight (kg),Immunization Status,Micronutrient Intake,Dietary Diversity Score
+1,24,F,85,12,3.5,Completed,Adequate,7
+2,30,M,78,9,2.8,Partial,Low,5
+3,18,F,82,11,3.2,Completed,Adequate,8
+4,36,M,79,10,3.0,Not vaccinated,Low,6
+5,27,F,81,10,3.4,Completed,Adequate,9

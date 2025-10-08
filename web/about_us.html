@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - 2025 Hackathon</title>
+    <link rel="icon" href="../images/FAVICON_NISR_3.png" type="image/png">
+    <link rel="icon" src="../images/logo-rwanda-nisr-transparent_0.png">
+<header>
+    <div class="header">
+    <div class="logo">
+        <img src="../images/logo-rwanda-nisr-transparent_0.png" alt="Logo">
+        2025 Hackathon Competition
+    </div>
+    <div class="nav-links">
+        <a href="/">Home</a>
+         <a href="/predictions">Predictions</a>
+        <a href="/hunger">Hidden Hunger</a>
+        <a href="/about_us">About Us</a>
+        <a href="/contact">Contact Us</a>
+    </div>
+    <div class="hamburger" onclick="toggleSidebar()">☰</div>
+</div>
+
+<div class="sidebar" id="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="toggleSidebar()">×</a>
+        <a href="/">Home</a>
+         <a href="/predictions">Predictions</a>
+        <a href="/hunger">Hidden Hunger</a>
+        <a href="/about_us">About Us</a>
+        <a href="/contact">Contact Us</a>
+    </div>
+</header>
+
+
+</head>
+<body>
+    <h1>Students from UR-CAVM Busogo Campus</h1>
+    <h2>Tackling Rwanda's Challenges with Data-Driven Solutions</h2>
+
+    <section class="intro">
+        <div class="container">
+            <h2>Introduction</h2>
+            <p>The National Institute of Statistics of Rwanda (NISR) is thrilled to announce the 2025 Big Data Hackathon, designed to engage university students in developing innovative data-driven solutions. This hackathon brings together innovators and data-enthusiastic students to tackle major challenges facing Rwanda today.</p>
+        </div>
+    </section>
+
+    <section class="objectives">
+        <div class="container">
+            <h2>Objectives</h2>
+            <ul>
+                <li>Promote youth-driven data science solutions to national development challenges.</li>
+                <li>Foster evidence-based policymaking through innovative tools.</li>
+                <li>Enhance the use of national data in public and private decision-making.</li>
+                <li>Build data science capacity across academic institutions.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="tracks">
+        <div class="container">
+            <h2>Hackathon Tracks</h2>
+            <p>Participants are required to choose one track below:</p>
+            <h3>Track 2: Ending Hidden Hunger</h3>
+            <p>Challenge: Address micronutrient deficiencies.</p>
+            <ul>
+                <li>Map malnutrition hotspots using geospatial data.</li>
+                <li>Develop predictive models of malnutrition risk.</li>
+                <li>Analyze root causes of stunting and deficiencies.</li>
+                <li>Recommend interventions involving health, agriculture, education sectors.</li>
+                <li>Propose short policy briefs for local implementation.</li>
+            </ul>
+        </div>
+    </section>
+
+              <!--code for footer--->
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-section">
+            <h4>About Us</h4>
+            <p>Leading Statistic platform for Children across the globe.</p>
+            <p><a href="#">Learn More</a></p>
+        </div>
+        <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#">Feedback</a></li>
+                <li><a href="/contact">Contact Us</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Contact Us</h4>
+            <p>Email: info@nutritionalstatusofchlidren.com</p>
+            <p>Phone: + 250 782 128 007</p>
+            <p>Address: NY 293, Kimisaga, Kigali City</p>
+        </div>
+        <div class="footer-section">
+            <h4>Follow Us</h4>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">LinkedIn</a></li>
+            </ul>
+        </div>
+        
+    </div>
+    <div style="text-align: center; margin-top: 20px;">
+        <p>&copy; 2025 Hackathon Competition. All Rights Reserved.</p>
+        <p>Designed by B_Alain_02</p>
+    </div>
+</footer>
+</body>
+</html>
+
+
+<style>
+
+  .header {
+            background-color: white;
+            color: black;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+        .nav-links a {
+            color: black;
+            text-decoration: none;
+            padding: 10px 15px;
+            transition: background-color 0.3s;
+        }
+        .nav-links a:hover {
+            background-color: #004494;
+            border-radius: 5px;
+        }
+        .hamburger {
+            display: none;
+            cursor: pointer;
+            font-size: 24px;
+        }
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: -250px;
+            height: 100%;
+            width: 250px;
+            background-color: #2c3e50;
+            padding-top: 60px;
+            transition: 0.3s;
+            z-index: 1;
+        }
+        .sidebar a {
+            padding: 15px;
+            text-decoration: none;
+            color: white;
+            display: block;
+            transition: background-color 0.3s;
+        }
+        .sidebar a:hover {
+            background-color: #004494;
+        }
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+            .hamburger {
+                display: block;
+            }
+        }
+
+
+            .logo {
+    display: flex;
+    align-items: center;
+    font-size: 30px; /* Base font size */
+    color: green; /* Text color */
+    padding: 10px 20px; /* Padding around the logo */
+    transition: all 0.3s ease; /* Smooth transitions for hover effects */
+    text-align: center;
+}
+
+.logo img {
+    height: 65px; /* Logo height */
+    width: auto; /* Maintain aspect ratio */
+    margin-right: 150px; /* Space between logo and text */
+    transition: transform 0.3s ease; /* Smooth scaling on hover */
+}
+
+.logo:hover img {
+    transform: scale(1.1); /* Scale effect on hover */
+}
+
+.logo:hover {
+    color: #ffcc00; /* Change text color on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .logo {
+        font-size: 30px; /* Smaller font size on mobile */
+        padding: 5px; /* Reduced padding */
+        
+    }
+    .logo img {
+        height: 60px; /* Smaller logo height on mobile */
+        margin-right: 28px; /* Space between logo and text */
+    }
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1, h2, h3 {
+    color: #495057;
+    margin-bottom: 0.5em;
+    
+}
+h1{
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.3em;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 1.75em;
+    margin-top: 1.5em;
+    border-bottom: 2px solid #6c757d;
+    padding-bottom: 0.5em;
+}
+
+h3 {
+    font-size: 1.25em;
+    margin-top: 1em;
+}
+
+.intro, .objectives, .tracks {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    h3 {
+        font-size: 1.2em;
+    }
+}
+
+.footer {
+        background-color: #34495e;
+        color: white;
+        padding: 40px 0;
+    }
+    .footer-container {
+        max-width: 1200px;
+        margin: auto;
+        padding: 0 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .footer-section {
+        flex: 1;
+        min-width: 250px;
+        margin: 10px;
+    }
+    .footer h4 {
+        margin-bottom: 15px;
+        font-size: 1.5em;
+        color: white;
+    }
+    .footer p {
+        margin-bottom: 10px;
+    }
+    .footer ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    .footer a {
+        color: lightblue;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+    .footer a:hover {
+        color: #1abc9c;
+    }
+    .byiri {
+        text-align: center;
+            margin-top: 20px;
+    }
+
+</style>
+<script>
+       function toggleSidebar() {
+        const sidebar = document.getElementById('sidebar');
+        sidebar.style.left = (sidebar.style.left === '0px') ? '-250px' : '0px';
+    }
+</script>
